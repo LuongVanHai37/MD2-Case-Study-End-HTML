@@ -13,6 +13,7 @@
 .logo-image {
     width: 150px;
     margin-right: 50px;
+
 }
 
 .menu {
@@ -20,8 +21,8 @@
 }
 
 .menu .menu-category {
-    background: #f9f9f9;
-    border-radius: 10px;
+    background: darkblue;
+    /*border-radius: 10px;*/
     box-shadow: 5px 10px 18px #e319b4;
     position: absolute;
     top: 22px;
@@ -30,6 +31,8 @@
     height: 200px;
     text-align: left;
     display: none;
+    border: 1px solid blue;
+    color: white;
 }
 
 .menu:hover .menu-category {
@@ -38,8 +41,9 @@
 
 .menu-category li {
     padding: 10px;
-
-
+}
+.menu-category a {
+    color: white;
 }
 
 .logo-left {
@@ -77,12 +81,14 @@
     display: inline-block;
     text-align: center;
     line-height: 70px;
-    background: #f9f9f9;
+    background: darkblue;
     box-shadow: 5px 10px 18px #e319b4;
     top: -5px;
     left: -10px;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     font-family: "Times New Roman";
+    border: 1px solid blue;
+    color: white;
 }
 
 .logo-right i {
@@ -105,6 +111,7 @@ a {
 #main-product-1, #main-product-2 {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 ul.list-product {

@@ -1,8 +1,5 @@
 @media screen and (max-width: 380px) {
-    body {
-        width: 50%;
-    }
-    .banner-image {
+    .banner {
         display: none;
     }
 }
