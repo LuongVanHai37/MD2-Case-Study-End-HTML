@@ -2,4 +2,8 @@
     .banner {
         display: none;
     }
+
+    .logo-image {
+        display: none;
+    }
 }
